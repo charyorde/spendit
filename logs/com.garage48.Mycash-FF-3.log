@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Validating newly compiled units
+   [ERROR] Errors in 'file:/C:/jprojects/mycash/src/java/com/garage48/client/MainWidget.java'
+      [ERROR] Line 183: ImageWrapper cannot be resolved
+      [ERROR] Line 184: ImageWrapper cannot be resolved
+      [ERROR] Line 185: ImageWrapper cannot be resolved
+      [ERROR] Line 186: ImageWrapper cannot be resolved
+Finding entry point classes
+   [ERROR] Unable to find type 'com.garage48.client.MycashEntryPoint'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+[ERROR] Failed to load module 'com.garage48.Mycash' from user agent 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.19) Gecko/20110420 Firefox/3.5.19 GTB7.1' at 127.0.0.1:4438
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.cfg.ModuleDef.checkForSeedTypes(ModuleDef.java:522)
+	at com.google.gwt.dev.cfg.ModuleDef.getCompilationState(ModuleDef.java:301)
+	at com.google.gwt.dev.DevModeBase$UiBrowserWidgetHostImpl.createModuleSpaceHost(DevModeBase.java:102)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:180)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+
+
+
+
+

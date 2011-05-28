@@ -1,0 +1,110 @@
+- mechaniclick: database for mechanics,  list of certified mechanics, common problem of cars, cost of repair common problems, self diagnosis guide, sms portal. Works on the web and it is integrated with SMS
+
+- Facebook Tube: a collection of all facebook videos.
+Question: 
+
+- Extramiles: a referral based system. Will love be on this.
+
+- Parkbench: 
+
+- LectureWall: Educational content online. EDUERP with both student and Staff. Educational Facebook. Cool idea!
+
+- Expense: Keeps track of your expense
+
+- TellMeTraffic: community driven traffic chatting application. It is web-based. Accessible thru mobile phones.
+
+- Evrica: Event management
+
+- Food Recipe App
+
+- TAGWIRE: Social network
+
+
+
+
+
+
+org.restlet.jar
+org.restlet.ext.json.jar
+org.restlet.ext.xml.jar
+
+Must demo
+Focus
+
+myCash (Expense solution)
+
+- Track ur expenses
+- An expense belongs to a category
+- 
+
+
+Expense model
+
+- id
+- category
+- price
+- title
+- location
+- uid
+
+
+Search model
+
+- location
+- item
+- price
+- 
+
+User model
+
+- first name
+- lastname
+- state
+- address
+- city
+- country
+- email
+- phone
+
+Role
+- 
+
+User Relation
+
+
+Socail retailing
+
+Features to be embedded
+
+- Introduce deals
+- Tracking your expenses
+- Commenting
+-
+
+Budget
+
+amount
+item
+
+
+In horizontal block
+2. myCash on Facebook, Twitter
+3. Get MyCash on Android and Feature phones
+1. Coupon
+
+
+com.garage48.Mycash
+
+Todo
+1. Introduce top expenses (the item, price and the store the good was bought from).
+2. Introduce search
+3. Work on the Full accounting page, where you can add an expense, edit an expense, view an expense
+4. Introduce user profile
+5. Introduce analytics or trends, chart (This should be the foundation for top expenses).
+6. Work on session management and permission.
+7. Validate all forms
+8. Introduce store name in the "Add expense" form.
+9. Commenting after a user shares his expense.
+10 Ads
+11.
+

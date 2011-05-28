@@ -1,0 +1,11 @@
+com.garage48.client.service.AddExpenseService, false, false, false, false, _, 1243318618
+com.garage48.shared.ExpensesDTO, false, false, true, true, com.garage48.shared.ExpensesDTO/1350708119, 1350708119
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+java.lang.Boolean, true, true, false, false, java.lang.Boolean/476441737, 476441737
+java.lang.Double, false, false, true, true, java.lang.Double/858496421, 858496421
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.Long, false, false, true, true, java.lang.Long/4227064769, 4227064769
+java.lang.Number, false, false, true, false, java.lang.Number/300033342, 300033342
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131

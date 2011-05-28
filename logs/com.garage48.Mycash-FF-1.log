@@ -1,0 +1,204 @@
+
+
+[ERROR] Failed to create an instance of 'com.garage48.client.MycashEntryPoint' via deferred binding 
+java.lang.RuntimeException: Deferred binding failed for 'com.garage48.client.ClientFactory' (did you forget to inherit a required module?)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:53)
+	at com.google.gwt.core.client.GWT.create(GWT.java:97)
+	at com.garage48.client.MycashEntryPoint.<init>(MycashEntryPoint.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:465)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.AssertionError: targetHistoryToken must not be null, consider using Anchor instead
+	at com.google.gwt.user.client.ui.Hyperlink.setTargetHistoryToken(Hyperlink.java:343)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:183)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:140)
+	at com.garage48.client.widgets.HeaderWidget.<init>(HeaderWidget.java:48)
+	at com.garage48.client.MainWidget.<init>(MainWidget.java:37)
+	at com.garage48.client.ClientFactoryImpl.<clinit>(ClientFactoryImpl.java:28)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.gwt.dev.shell.ModuleSpace.loadClassFromSourceName(ModuleSpace.java:654)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:458)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:49)
+	... 12 more
+[ERROR] Unable to load module entry point class com.garage48.client.MycashEntryPoint (see associated exception for details)
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:503)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+[ERROR] Failed to load module 'com.garage48.Mycash' from user agent 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.19) Gecko/20110420 Firefox/3.5.19 GTB7.1' at 127.0.0.1:2200
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:434)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+
+
+[ERROR] Failed to create an instance of 'com.garage48.client.MycashEntryPoint' via deferred binding 
+java.lang.RuntimeException: Deferred binding failed for 'com.garage48.client.ClientFactory' (did you forget to inherit a required module?)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:53)
+	at com.google.gwt.core.client.GWT.create(GWT.java:97)
+	at com.garage48.client.MycashEntryPoint.<init>(MycashEntryPoint.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:465)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.AssertionError: targetHistoryToken must not be null, consider using Anchor instead
+	at com.google.gwt.user.client.ui.Hyperlink.setTargetHistoryToken(Hyperlink.java:343)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:183)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:140)
+	at com.garage48.client.view.AddExpenseViewImpl.<init>(AddExpenseViewImpl.java:71)
+	at com.garage48.client.ClientFactoryImpl.<clinit>(ClientFactoryImpl.java:31)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.gwt.dev.shell.ModuleSpace.loadClassFromSourceName(ModuleSpace.java:654)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:458)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:49)
+	... 12 more
+[ERROR] Unable to load module entry point class com.garage48.client.MycashEntryPoint (see associated exception for details)
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:503)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+[ERROR] Failed to load module 'com.garage48.Mycash' from user agent 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.19) Gecko/20110420 Firefox/3.5.19 GTB7.1' at 127.0.0.1:1085
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:434)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+
+[ERROR] Failed to create an instance of 'com.garage48.client.MycashEntryPoint' via deferred binding 
+java.lang.RuntimeException: Deferred binding failed for 'com.garage48.client.ClientFactory' (did you forget to inherit a required module?)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:53)
+	at com.google.gwt.core.client.GWT.create(GWT.java:97)
+	at com.garage48.client.MycashEntryPoint.<init>(MycashEntryPoint.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:465)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.AssertionError: targetHistoryToken must not be null, consider using Anchor instead
+	at com.google.gwt.user.client.ui.Hyperlink.setTargetHistoryToken(Hyperlink.java:343)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:183)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:140)
+	at com.garage48.client.view.AddExpenseViewImpl.<init>(AddExpenseViewImpl.java:71)
+	at com.garage48.client.ClientFactoryImpl.<clinit>(ClientFactoryImpl.java:31)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.gwt.dev.shell.ModuleSpace.loadClassFromSourceName(ModuleSpace.java:654)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:458)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:49)
+	... 12 more
+[ERROR] Unable to load module entry point class com.garage48.client.MycashEntryPoint (see associated exception for details)
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:503)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+[ERROR] Failed to load module 'com.garage48.Mycash' from user agent 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.19) Gecko/20110420 Firefox/3.5.19 GTB7.1' at 127.0.0.1:1166
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:434)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+
+[ERROR] Failed to create an instance of 'com.garage48.client.MycashEntryPoint' via deferred binding 
+java.lang.RuntimeException: Deferred binding failed for 'com.garage48.client.ClientFactory' (did you forget to inherit a required module?)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:53)
+	at com.google.gwt.core.client.GWT.create(GWT.java:97)
+	at com.garage48.client.MycashEntryPoint.<init>(MycashEntryPoint.java:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:465)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.AssertionError: targetHistoryToken must not be null, consider using Anchor instead
+	at com.google.gwt.user.client.ui.Hyperlink.setTargetHistoryToken(Hyperlink.java:343)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:183)
+	at com.google.gwt.user.client.ui.Hyperlink.<init>(Hyperlink.java:140)
+	at com.garage48.client.view.AddExpenseViewImpl.<init>(AddExpenseViewImpl.java:71)
+	at com.garage48.client.ClientFactoryImpl.<clinit>(ClientFactoryImpl.java:31)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:247)
+	at com.google.gwt.dev.shell.ModuleSpace.loadClassFromSourceName(ModuleSpace.java:654)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:458)
+	at com.google.gwt.dev.shell.GWTBridgeImpl.create(GWTBridgeImpl.java:49)
+	... 12 more
+[ERROR] Unable to load module entry point class com.garage48.client.MycashEntryPoint (see associated exception for details)
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.rebindAndCreate(ModuleSpace.java:503)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:375)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+[ERROR] Failed to load module 'com.garage48.Mycash' from user agent 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.19) Gecko/20110420 Firefox/3.5.19 GTB7.1' at 127.0.0.1:1328
+com.google.gwt.core.ext.UnableToCompleteException: (see previous log entries)
+	at com.google.gwt.dev.shell.ModuleSpace.onLoad(ModuleSpace.java:434)
+	at com.google.gwt.dev.shell.OophmSessionHandler.loadModule(OophmSessionHandler.java:183)
+	at com.google.gwt.dev.shell.BrowserChannelServer.processConnection(BrowserChannelServer.java:510)
+	at com.google.gwt.dev.shell.BrowserChannelServer.run(BrowserChannelServer.java:352)
+	at java.lang.Thread.run(Thread.java:619)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
